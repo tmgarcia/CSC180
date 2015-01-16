@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.tgarcia.nubay.views.ItemDetailView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:backgroundTint="#ff5c5c5c"
+    android:backgroundTintMode="multiply">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#ff6e6e6e"
+        android:backgroundTintMode="multiply">
+        <ImageView android:id="@+id/item_detail_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/imagedetail"
+            android:layout_gravity="center_horizontal"/>
+        <TextView android:id="@+id/item_detail_longDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ff000000" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current Price: "
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff1d1d1d" />
+            <TextView android:id="@+id/item_detail_currentPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff202020" />
+        </LinearLayout>
+        <Button android:id="@+id/item_detail_bidButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bid"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+</com.example.tgarcia.nubay.views.ItemDetailView>
