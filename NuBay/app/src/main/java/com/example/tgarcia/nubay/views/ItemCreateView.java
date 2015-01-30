@@ -62,7 +62,7 @@ public class ItemCreateView extends LinearLayout //implements OnChangeListener<I
     //}
 
     private ViewListener viewListener;
-    public static interface ViewListener//Doesn't this need to be wider scope?
+    public static interface ViewListener//Doesn't this need to be wider scope? was private
     {
         public void onClick(ItemCreateModel model);
     }

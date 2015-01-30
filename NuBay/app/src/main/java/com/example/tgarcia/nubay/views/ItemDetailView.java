@@ -45,7 +45,6 @@ public class ItemDetailView extends LinearLayout
         updateDisplayValues();
     }
 
-
     private void updateDisplayValues()
     {
         longDescription.setText(model.getLongDescription());

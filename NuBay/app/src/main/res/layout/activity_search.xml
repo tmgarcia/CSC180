@@ -1,0 +1,23 @@
+<com.example.tgarcia.nubay.views.SearchView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp">
+        <EditText android:id="@+id/item_search_input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="item name or description"
+            android:inputType="text"
+            android:imeOptions="actionSearch"/>
+        <ListView android:id="@+id/item_search_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</com.example.tgarcia.nubay.views.SearchView>

@@ -33,6 +33,7 @@ public class ItemCreateActivity extends ActionBarActivity
         view.setModel(model);
         //Need controller to listen to view?
         setContentView(view);
+
     }
 
 
